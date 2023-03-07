@@ -1,0 +1,49 @@
+# # el=int (input("enter no. of element"))
+# # x=[]
+# # for i in range(el):
+# #     a=int(input("enter a number at {}:".format(i)))
+# #     x.append(a)
+# # suml=0;sumr=0;fl=0
+# # for j in range(len(x)):
+# #     i=j+1
+# #     sumr=0
+# #     while i<len(x):
+# #         sumr+=x[i];i+=1
+# #     #sumr+=x[len(x)-1-j];
+# #     suml+=x[j]
+# #     if suml==sumr:
+# #         fl=j;break
+# # if fl==0:
+# #     print("there is no element from where left and right sum is equal")
+# # else:
+# #     print("element at {}".format(fl)+"is the required place")
+
+# def fun(*hj):
+#     global Ne 
+#     ne=3
+#     print(ne)
+# ne=6
+# fun(ne)
+# print(ne)
+# print(type(range(1,4)))
+# print(range(1,99)[3:7])
+# #range(start,stop,step)
+# for x in range(2,10,4):
+#     print(x)    
+# #divisible by 3 using range function
+
+
+# for x in range(3,100,3):
+# #    print(x)
+# for x in range(1,100):
+#     if(x%3==0):
+        # print(x)
+# for i in range (5,-1,-1):
+#     for j in range(i):
+#         print(i,end =" ")
+#     print(" ")
+for i in range(0,9):
+    for j in range(0,9):
+        if(j<=i):
+            print(i+1,end=" ")
+    print()
